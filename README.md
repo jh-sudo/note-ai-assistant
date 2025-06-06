@@ -1,0 +1,2 @@
+# note-ai-assistant
+fyp
