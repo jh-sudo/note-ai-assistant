@@ -17,6 +17,10 @@ function PDFUpload() {
     const formData = new FormData();
     formData.append('file', file);
 
+    setLoading(true);
+    setSummary("");
+    setMessage("");
+
     try {
       const res = await axios.post('http://localhost:8000/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }

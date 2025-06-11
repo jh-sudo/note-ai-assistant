@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.env
+venv/
+ENV/
+env/
+*.env
+
+# VSCode settings
+.vscode/
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded files
+uploads/
+
+# Node modules (frontend)
+frontend/node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# dotenv
+*.env.local
+*.env.*.local
+
+# IDE config files
+.idea/
+*.sublime-workspace
+*.sublime-project
